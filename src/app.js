@@ -5,7 +5,7 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 const { error } = require('console')
-const port = 3001;
+const port = process.env.PORT || 3000
 
 const app = express()
 
