@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,hbs"
+    "dev": "nodemon src/app.js -e"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,6 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^1.2.0"
   }
 }
